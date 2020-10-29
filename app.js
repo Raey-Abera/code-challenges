@@ -39,7 +39,7 @@ const removeDuplicates = arr => {
 }
 
 console.log('test1', removeDuplicates([-3, 99, 1001, 1001, -3, 56, 27, 27, 27])); // -3, 27, 56, 99, 1001
-console.log('test2', removeDuplicates([]));
-console.log('test3', removeDuplicates({}))
-console.log('test4', removeDuplicates(''))
-console.log('test5', removeDuplicates(0))
+console.log('test2', removeDuplicates([])); //This an empty array
+console.log('test3', removeDuplicates({})) //This is not an array. This is a/an object
+console.log('test4', removeDuplicates('')) //This is not an array. This is a/an string
+console.log('test5', removeDuplicates(0)) //This is not an array. This is a/an number
