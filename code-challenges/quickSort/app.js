@@ -1,4 +1,4 @@
-let items = [5, 3, 7, 6, 2, 11]
+let items = [5, 33, 7, 6, 2, 11]
 
 const swap = (items, leftIndex, rightIndex) => {
     let temp = items[leftIndex];
@@ -43,4 +43,4 @@ const quickSort = (items, left, right) => {
 
 let sortedArray = quickSort(items, 0, items.length - 1)
 
-console.log(sortedArray); //prints[2, 3, 5, 6, 7, 11]
+console.log(sortedArray); //prints[2, 5, 6, 7, 11, 33]
