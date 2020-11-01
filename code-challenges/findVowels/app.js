@@ -2,15 +2,15 @@
 //'a', 'e', 'i', 'o', 'u'
 
 const findVowels = str => {
-    let count = 0;
-    const vowelTracker = ['a','e','i','o','u'];
+    let count = 0
+    const vowelTracker = ['a','e','i','o','u']
 
     for (let char of str.toLowerCase()) {
         if (vowelTracker.includes(char)) {
-            count++;
+            count++
         }
     }
-    return count;
+    return count
 }
 
 console.log(findVowels('There are eight vowels')) //8
