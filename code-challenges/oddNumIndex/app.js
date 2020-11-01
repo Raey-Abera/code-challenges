@@ -1,5 +1,5 @@
-// Create a function that takes an array of numbers, and returns the index of the first odd number.
-// If there are no odd numbers, the function should output -1. Numbers are guaranteed to be non-negative.
+// Create a function that takes an array of numbers, and returns the index of the first odd number
+// If there are no odd numbers, the function should output -1. Numbers are guaranteed to be non-negative
 
 const oddNumIndex = numArr => {
     for (i = 0; i < numArr.length; i++) {
