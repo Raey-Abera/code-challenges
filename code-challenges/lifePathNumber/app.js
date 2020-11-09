@@ -21,6 +21,6 @@ const lifePathNumber = dateOfBirth => {
     return lifeNum;
 }
 
-console.log('Bday1', lifePathNumber("1879-03-14"))//6
-console.log('Bday2', lifePathNumber("1815-12-10"))//1
-console.log('Bday3', lifePathNumber("1988-05-18"))//4
+console.log('Bday1', lifePathNumber('1879-03-14'))//6
+console.log('Bday2', lifePathNumber('1815-12-10'))//1
+console.log('Bday3', lifePathNumber('1988-05-18'))//4
