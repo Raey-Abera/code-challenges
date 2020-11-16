@@ -10,11 +10,9 @@
 // Caminar -> to walk
 // Vivir -> to live
 
-// How to conjugate: 
-// For conjugating in Spanish, we need to remove the infinitive suffix (ar, er or ir) and add the personal suffixes corresponding to the person we're talking to. In this kata we'll conjugate the verbs to its presente indicativo (simple present) form.
+// How to conjugate: For conjugating in Spanish, we need to remove the infinitive suffix (ar, er or ir) and add the personal suffixes corresponding to the person we're talking to. In this kata we'll conjugate the verbs to its presente indicativo (simple present) form.
 
-// Personal suffixes
-// The personal suffixes changes depending of the Infinitive suffix.
+// Personal suffixes: The personal suffixes changes depending of the Infinitive suffix.
 
 // If the infinitive suffix is AR the personal suffixes are:
 // first person singular (Yo / I): -o
@@ -41,7 +39,6 @@
 // third person plural (Ellos / They): -en
 
 // Steps for conjugating:
-
 // Remove the infinitive suffix (ar, er, ir)
 // And add the personal suffixes
 // Example: verb Caminar (to walk)
@@ -66,8 +63,7 @@
 // Vivís (You guys live)
 // Viven (They live)
 
-// Your Task
-// You need to write a function called conjugate which will return an object with a spanish verb conjugated. The object must look like this:
+// Your Task: You need to write a function called conjugate which will return an object with a spanish verb conjugated. The object must look like this:
 
 // {
 //   "comer": [
@@ -80,18 +76,6 @@
 //   ]
 // }
 // Where the key is the verb in its original form (infinitive form) and its value will be an array with the conjugations.
-
-// Another example:
-// {
-//   "vivir": [
-//     "vivo",
-//     "vives",
-//     "vive",
-//     "vivimos",
-//     "vivís",
-//     "viven"
-//   ]
-// }
 
 // Notes:
 // The conjugations must be in this order:
